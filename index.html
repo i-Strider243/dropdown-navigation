@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  
+  <script src="script.js" defer></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="primary-header">
+    <nav class="nav-bar flex">
+      <div class="logo flex">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+      </button>
+      
+        <!--<img src="images/icon-menu.svg" alt="" srcset="">-->
+        <!--menu-items-->
+      <div id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <ul class="flex">
+            <li class="active list-toggle" id="list-toggle-1" aria-controls="drop-down-list-1" aria-expanded="false">Features</span>
+              <span></span>
+              <ul data-visible="false" class="drop-down-list-1 flex">
+                <li class="drop-down-list-item">
+                  <span><img src="images/icon-todo.svg" alt=""></span>
+                  Todo List
+                </li>
+                <li class="drop-down-list-item">
+                  <span><img src="images/icon-calendar.svg" alt=""></span>
+                  Calendar
+                </li>
+                <li class="drop-down-list-item">
+                  <span><img src="images/icon-reminders.svg" alt=""></span>
+                  Reminders
+                </li>
+                <li class="drop-down-list-item">
+                  <span><img src="images/icon-planning.svg" alt=""></span>
+                  Planning
+                </li>
+              </ul>
+            </li>
+            <li class="active list-toggle" id="list-toggle-2" aria-controls="drop-down-list-2" aria-expanded="false">Company
+              <span></span>
+              <ul data-visible="false" class="drop-down-list-2 flex">
+                <li class="drop-down-list-item">History</li>
+                <li class="drop-down-list-item">Our Team</li>
+                <li class="drop-down-list-item">Blog</li>
+              </ul>
+            </li>
+            <li class="active">Careers</li>
+            <li class="active">About</li>
+          </ul>
+          <div class="space"></div>
+          <ul class="flex cta">
+            <li class="active">Login</li>
+            <li class="active">Register</li>
+          </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container image">
+      <img src="images/image-hero-mobile.png" alt="" srcset="">
+    </div>
+    <div class="container flex">
+      <!--Text Field-->
+      <div class="text">
+        <h1>Make remote work</h1>
+
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+
+        <button>Learn more</button>
+      </div>
+      <!--Footer-->
+      <div class="footer flex">
+        <div class="footer-img">
+          <img src="images/client-databiz.svg" alt="">
+        </div>
+        <div class="footer-img">
+          <img src="images/client-audiophile.svg" alt="">
+        </div>
+        <div class="footer-img">
+          <img src="images/client-meet.svg" alt="">
+        </div>
+        <div class="footer-img">
+          <img src="images/client-maker.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Simon Gabriel</a>.
+  </div>
+</body>
+</html>
