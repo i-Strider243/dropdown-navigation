@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](https://github.com/i-Strider243/dropdown-navigation/blob/main/solutions/Desktop_Web%20capture_10-7-2022_221911_.jpeg)
 
 ### Links
 
@@ -43,6 +43,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Javascript
 
 ### What I learned
 
@@ -51,8 +52,6 @@ I learnt how to make a responsive nav bar with a toggle button. I also learnt to
 ### Continued development
 
 I will continue to learn about the CSS Transform property and how to write concise and less code.
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ### Useful resources
 
